@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.295" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/drawable/baguette_background.xml" value="0.333" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/drawable/building_background.xml" value="0.1935" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/drawable/chef-Men2_background.xml" value="0.1935" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/drawable/chef-Men_background.xml" value="0.1935" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/drawable/chef-Women_background.xml" value="0.1935" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/drawable/chefMen_background.xml" value="0.1935" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/drawable/chef_Men_background.xml" value="0.1935" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/drawable/clientMen_background.xml" value="0.1935" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/drawable/client_Women_background.xml" value="0.333" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/drawable/ic_launcher_background.xml" value="0.295" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/drawable/payment_background.xml" value="0.333" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_activyti_recycle_view.xml" value="0.3625" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_altera_divida.xml" value="0.3625" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_info_cliente.xml" value="0.33" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_info_fornecedor.xml" value="0.3484375" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_info_funcionario.xml" value="0.3484375" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_info_pedido.xml" value="0.3625" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_info_produto.xml" value="0.3484375" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_login.xml" value="0.3625" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_main.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_menu_cadastro.xml" value="0.3625" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_recycle_view.xml" value="0.5" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_recycle_view_compra.xml" value="0.3625" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_register_Pedido.xml" value="0.3625" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_register_actity_fornecedor.xml" value="0.3625" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_register_cliente.xml" value="0.3625" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_register_fornecedor.xml" value="0.33" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_register_funcionario.xml" value="0.3625" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_register_pedido.xml" value="0.33" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_register_produto.xml" value="0.3625" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/fragment_first.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/fragment_second.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/mipmap-anydpi-v26/baguette.xml" value="0.333" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/mipmap-anydpi-v26/baguette_round.xml" value="0.333" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/mipmap-anydpi-v26/chef-Men.xml" value="0.1935" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/mipmap-anydpi-v26/chef-Men_round.xml" value="0.1935" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/mipmap-anydpi-v26/chef-Women.xml" value="0.1935" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/mipmap-anydpi-v26/chef-Women_round.xml" value="0.1935" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/xml/data_base.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
