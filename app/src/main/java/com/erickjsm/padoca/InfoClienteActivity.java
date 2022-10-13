@@ -2,6 +2,7 @@ package com.erickjsm.padoca;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -13,8 +14,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.erickjsm.padoca.DAO.DAO;
+import com.erickjsm.padoca.adapter.RecycleViewAdapter;
+import com.erickjsm.padoca.adapter.RecycleViewCompra;
 import com.erickjsm.padoca.obj.Cliente;
 import com.erickjsm.padoca.obj.Pedido;
+import com.erickjsm.padoca.obj.Produto;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class InfoClienteActivity extends AppCompatActivity {
 
@@ -114,7 +121,9 @@ public class InfoClienteActivity extends AppCompatActivity {
         addPedido.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // crai uma activity com uma lista de produtos.
+                Intent intent = new Intent(context, RegisterActivity_Pedido.class);
+                intent.putExtra("cpf", finalCliente.getCPF());
+                v.getContext().startActivity(intent);
             }
         });
     }

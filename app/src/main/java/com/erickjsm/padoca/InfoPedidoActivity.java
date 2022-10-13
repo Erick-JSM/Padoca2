@@ -51,9 +51,10 @@ public class InfoPedidoActivity extends AppCompatActivity {
 
         img_infoPedido.setImageResource(R.drawable.payment_foreground);
         textCodPedido.setText(pedido.getCodPedido());
-        textNomeFunc.setText(pedido.getQtdPedida());
-        textNomeCliente.setText(pedido.getData());
-        textCodProduto.setText(pedido.getCpfFuncionario());
+        textNomeFunc.setText(pedido.getCpfFuncionario());
+        textNomeCliente.setText(pedido.getCpfCliente());
+        textCodProduto.setText(pedido.getCodProduto());
+        textDataPedido.setText((pedido.getData()));
 
         Pedido finalPedido = pedido;
         excluirPedido.setOnClickListener(new View.OnClickListener() {

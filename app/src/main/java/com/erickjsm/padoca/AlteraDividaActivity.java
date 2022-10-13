@@ -41,8 +41,6 @@ public class AlteraDividaActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 DAO dao = new DAO(context);
-                System.out.println(finalCliente.getDivida());
-                System.out.println(Double.parseDouble(String.valueOf(etxt_incrementoDivida.getText())));
                 valor = (Double.parseDouble(String.valueOf(etxt_incrementoDivida.getText())) + Double.parseDouble(finalCliente.getDivida()));
                 dao.atualizaDivida(valor, finalCliente.getCPF(), 0.0);
             }

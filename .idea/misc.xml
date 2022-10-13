@@ -17,6 +17,7 @@
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/drawable/payment_background.xml" value="0.333" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_activyti_recycle_view.xml" value="0.3625" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_altera_divida.xml" value="0.3625" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_busca_produro_compra_recycler_vw.xml" value="0.203125" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_info_cliente.xml" value="0.33" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_info_fornecedor.xml" value="0.3484375" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_info_funcionario.xml" value="0.3484375" />
@@ -36,6 +37,7 @@
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_register_funcionario.xml" value="0.3625" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_register_pedido.xml" value="0.33" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/activity_register_produto.xml" value="0.3625" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/content_info_pedido.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/fragment_first.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/layout/fragment_second.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Padoca/app/src/main/res/mipmap-anydpi-v26/baguette.xml" value="0.333" />

@@ -6,6 +6,24 @@ public class Pedido {
     private String data;
     private String qtdPedida;
     private String CpfFuncionario;
+    private String codProduto;
+    private String cpfCliente;
+
+    public String getCpfCliente() {
+        return cpfCliente;
+    }
+
+    public void setCpfCliente(String cpfCliente) {
+        this.cpfCliente = cpfCliente;
+    }
+
+    public String getCodProduto() {
+        return codProduto;
+    }
+
+    public void setCodProduto(String codProduto) {
+        this.codProduto = codProduto;
+    }
 
     public String getCodPedido() {
         return codPedido;

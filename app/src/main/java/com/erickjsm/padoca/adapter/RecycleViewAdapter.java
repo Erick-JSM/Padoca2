@@ -22,6 +22,8 @@ import com.erickjsm.padoca.InfoProdutoActivity;
 import com.erickjsm.padoca.R;
 import com.erickjsm.padoca.obj.Cliente;
 
+import java.text.BreakIterator;
+
 public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.ViewHolder> {
     
     Context context;
@@ -60,7 +62,7 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
         public TextView textNome;
         public TextView textKey;
         public ImageView icon;
-        
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             textNome = itemView.findViewById(R.id.textNomeAdapter);

@@ -24,7 +24,7 @@ import java.util.List;
 public class DAO extends SQLiteOpenHelper {
 
     public DAO(Context context) {
-        super(context, "BD Padoca", null, 25);
+        super(context, "BD Padoca", null, 26);
     }
 
     @Override
@@ -271,22 +271,22 @@ public class DAO extends SQLiteOpenHelper {
         db.insert("Fornecedor", null, dados);
     }
 
-    public void insertFaz_pedido(Cliente cliente, Pedido pedido) {
+    public void insertFaz_pedido(String cpf, String cod) {
         SQLiteDatabase db = getWritableDatabase();
         ContentValues dados = new ContentValues();
 
-        dados.put("fk_cCpf", cliente.getCPF());
-        dados.put("fk_pCodPedido", pedido.getCodPedido());
+        dados.put("fk_cCpf", cpf);
+        dados.put("fk_pCodPedido", cod);
 
         db.insert("faz_pedido", null, dados);
     }
 
-    public void inserTem_produtos(Pedido pedido, Produto produto) {
+    public void inserTem_produtos(String codPedido, String codProduto) {
         SQLiteDatabase db = getWritableDatabase();
         ContentValues dados = new ContentValues();
 
-        dados.put("produtoCod", produto.getCodProduto());
-        dados.put("pedidoCod", pedido.getCodPedido());
+        dados.put("fk_produtoCod", codProduto);
+        dados.put("fk_pedidoCod", codPedido);
 
         db.insert("tem_produtos", null, dados);
     }
@@ -623,6 +623,32 @@ public class DAO extends SQLiteOpenHelper {
             sql = "UPDATE Cliente Set ultimoValorPago = " + "'" + op + "'" + " WHERE cpf = " + "'" + cpf + "';";
             db.execSQL(sql);
         }
+    }
+
+    // Adiciona uma compra
+    public  void addCompra(Cliente cliente, Pedido pedido, Produto produto){
+        SQLiteDatabase db = getWritableDatabase();
+        ContentValues dados = new ContentValues();
+        ContentValues dados1 = new ContentValues();
+        ContentValues dados2 = new ContentValues();
+
+        dados.put("codPedido", pedido.getCodPedido());
+        dados.put("data", String.valueOf(pedido.getData()));
+        dados.put("qtdPedida", pedido.getQtdPedida());
+        dados.put("fk_fCpf", pedido.getCpfFuncionario());
+
+        db.insert("Pedido", null, dados);
+
+        dados1.put("fk_cCpf", cliente.getCPF());
+        dados1.put("fk_pCodPedido", pedido.getCodPedido());
+
+        db.insert("faz_pedido", null, dados);
+
+        dados2.put("fk_produtoCod", produto.getCodProduto());
+        dados2.put("fk_pedidoCod", pedido.getCodPedido());
+
+        db.insert("tem_produtos", null, dados);
+
     }
 
     @Override
