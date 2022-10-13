@@ -10,7 +10,6 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
 
 import com.erickjsm.padoca.DAO.DAO;
 import com.erickjsm.padoca.adapter.RecycleViewAdapter;
