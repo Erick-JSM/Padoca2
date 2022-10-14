@@ -34,13 +34,13 @@ public class RegisterActivity_Cliente extends AppCompatActivity {
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER_PORTRAIT);
 
         btn_criarCliente = findViewById(R.id.btn_criarCliente);
-        etxt_Cad_ClienteTel = findViewById(R.id.etxt_Cad_ClienteTel);
-        etxt_Cad_ClienteCpf = findViewById(R.id.etxt_Cad_ClienteCpf);
-        etxt_Cad_ClienteMinimal = findViewById(R.id.etxt_Cad_ClienteMinimal);
-        etxt_Cad_ClienteUNome = findViewById(R.id.etxt_Cad_ClienteUNome);
-        etxt_Cad_ClienteEnd = findViewById(R.id.etxt_Cad_ClienteEnd);
-        etxt_Cad_ClienteDataNasc = findViewById(R.id.etxt_Cad_ClienteDataNasc);
-        etxt_Cad_ClientePNome = findViewById(R.id.etxt_Cad_ClientePNome);
+        etxt_Cad_ClienteTel = findViewById(R.id.etxt_Cad_FuncionarioTel);
+        etxt_Cad_ClienteCpf = findViewById(R.id.etxt_Cad_FuncionarioCpf);
+        etxt_Cad_ClienteMinimal = findViewById(R.id.etxt_Cad_FuncionarioMinimal);
+        etxt_Cad_ClienteUNome = findViewById(R.id.etxt_Cad_FuncionarioUNome);
+        etxt_Cad_ClienteEnd = findViewById(R.id.etxt_Cad_FuncionarioEnd);
+        etxt_Cad_ClienteDataNasc = findViewById(R.id.etxt_Cad_FuncionarioDataNasc);
+        etxt_Cad_ClientePNome = findViewById(R.id.etxt_Cad_FuncionarioPNome);
 
         switch_Cad_Cliente = findViewById(R.id.swith_Cad_ClienteSexo);
 

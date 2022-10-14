@@ -31,7 +31,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/etxt_Cad_ClienteTel"
+        android:id="@+id/etxt_Cad_FuncionarioTel"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
@@ -42,10 +42,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.131"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etxt_Cad_ClienteCpf" />
+        app:layout_constraintTop_toBottomOf="@+id/etxt_Cad_FuncionarioCpf" />
 
     <EditText
-        android:id="@+id/etxt_Cad_ClienteCpf"
+        android:id="@+id/etxt_Cad_FuncionarioCpf"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
@@ -56,10 +56,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.131"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etxt_Cad_ClienteEnd" />
+        app:layout_constraintTop_toBottomOf="@+id/etxt_Cad_FuncionarioEnd" />
 
     <EditText
-        android:id="@+id/etxt_Cad_ClienteMinimal"
+        android:id="@+id/etxt_Cad_FuncionarioMinimal"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="32dp"
@@ -69,11 +69,11 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.359"
-        app:layout_constraintStart_toEndOf="@+id/etxt_Cad_ClientePNome"
+        app:layout_constraintStart_toEndOf="@+id/etxt_Cad_FuncionarioPNome"
         app:layout_constraintTop_toBottomOf="@+id/txt_titleCadCliente" />
 
     <EditText
-        android:id="@+id/etxt_Cad_ClienteUNome"
+        android:id="@+id/etxt_Cad_FuncionarioUNome"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
@@ -84,10 +84,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etxt_Cad_ClientePNome" />
+        app:layout_constraintTop_toBottomOf="@+id/etxt_Cad_FuncionarioPNome" />
 
     <EditText
-        android:id="@+id/etxt_Cad_ClienteEnd"
+        android:id="@+id/etxt_Cad_FuncionarioEnd"
         android:layout_width="300dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
@@ -98,10 +98,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.243"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etxt_Cad_ClienteDataNasc" />
+        app:layout_constraintTop_toBottomOf="@+id/etxt_Cad_FuncionarioDataNasc" />
 
     <EditText
-        android:id="@+id/etxt_Cad_ClienteDataNasc"
+        android:id="@+id/etxt_Cad_FuncionarioDataNasc"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
@@ -112,10 +112,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etxt_Cad_ClienteUNome" />
+        app:layout_constraintTop_toBottomOf="@+id/etxt_Cad_FuncionarioUNome" />
 
     <EditText
-        android:id="@+id/etxt_Cad_ClientePNome"
+        android:id="@+id/etxt_Cad_FuncionarioPNome"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="32dp"
@@ -178,6 +178,6 @@
         android:text="Sexo"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etxt_Cad_ClienteMinimal" />
+        app:layout_constraintTop_toBottomOf="@+id/etxt_Cad_FuncionarioMinimal" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

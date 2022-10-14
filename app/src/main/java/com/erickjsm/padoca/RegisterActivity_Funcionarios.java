@@ -36,22 +36,24 @@ public class RegisterActivity_Funcionarios extends AppCompatActivity {
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER_PORTRAIT);
 
         btn_criarFuncionario = findViewById(R.id.btn_criarFuncionario);
-        etxt_Cad_FuncionarioTel = findViewById(R.id.etxt_Cad_ClienteTel);
-        etxt_Cad_FuncionarioCpf = findViewById(R.id.etxt_Cad_ClienteCpf);
-        etxt_Cad_FuncionarioMinimal = findViewById(R.id.etxt_Cad_ClienteMinimal);
+        etxt_Cad_FuncionarioTel = findViewById(R.id.etxt_Cad_FuncionarioTel);
+        etxt_Cad_FuncionarioCpf = findViewById(R.id.etxt_Cad_FuncionarioCpf);
+        etxt_Cad_FuncionarioMinimal = findViewById(R.id.etxt_Cad_FuncionarioMinimal);
         etxt_Cad_FuncionarioCargo = findViewById(R.id.etxt_Cad_FuncionarioCargo);
         etxt_Cad_FuncionarioSalario = findViewById(R.id.etxt_Cad_FuncionarioSalario);
-        etxt_Cad_FuncionarioUNome = findViewById(R.id.etxt_Cad_ClienteUNome);
-        etxt_Cad_FuncionarioEnd = findViewById(R.id.etxt_Cad_ClienteEnd);
-        etxt_Cad_FuncionarioDataNasc = findViewById(R.id.etxt_Cad_ClienteDataNasc);
-        etxt_Cad_FuncionarioPNome = findViewById(R.id.etxt_Cad_ClientePNome);
+        etxt_Cad_FuncionarioUNome = findViewById(R.id.etxt_Cad_FuncionarioUNome);
+        etxt_Cad_FuncionarioEnd = findViewById(R.id.etxt_Cad_FuncionarioEnd);
+        etxt_Cad_FuncionarioDataNasc = findViewById(R.id.etxt_Cad_FuncionarioDataNasc);
+        etxt_Cad_FuncionarioPNome = findViewById(R.id.etxt_Cad_FuncionarioPNome);
+        switch_Cad_Funcionario = findViewById(R.id.swith_Cad_FuncSexo);
 
-        btn_criarFuncionario.setOnClickListener(new View.OnClickListener() {
+                btn_criarFuncionario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if(!(etxt_Cad_FuncionarioPNome.getText().toString().equals("") || etxt_Cad_FuncionarioUNome.getText().toString().equals("") || etxt_Cad_FuncionarioCpf.getText().toString().equals("") || etxt_Cad_FuncionarioCargo.getText().toString().equals("") || etxt_Cad_FuncionarioTel.getText().toString().equals(""))){
                     DAO dao = new DAO(getApplicationContext());
                     Funcionario funcionario = new Funcionario();
+
 
                     String sexo;
                     if(switch_Cad_Funcionario.isChecked()){
@@ -70,6 +72,8 @@ public class RegisterActivity_Funcionarios extends AppCompatActivity {
                     funcionario.setpNome(etxt_Cad_FuncionarioPNome.getText().toString());
                     funcionario.setuNome(etxt_Cad_FuncionarioUNome.getText().toString());
                     funcionario.setTelefone(etxt_Cad_FuncionarioTel.getText().toString());
+
+                    dao.insertFuncionario(funcionario);
                 }
                 else{
                     Toast.makeText(getApplicationContext(), "Os campos Nomes, CPF, Telefone, Cargo e Salario são obrigatorios!", Toast.LENGTH_SHORT).show();

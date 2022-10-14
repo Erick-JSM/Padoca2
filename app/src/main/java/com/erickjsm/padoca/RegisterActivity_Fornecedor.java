@@ -48,6 +48,8 @@ public class RegisterActivity_Fornecedor extends AppCompatActivity {
                     fornecedor.setEmail(String.valueOf(etxt_Cad_fornecedorEmail.getText().toString()));
                     fornecedor.setEndereco(String.valueOf(etxt_Cad_endFornecedor.getText().toString()));
                     fornecedor.setTelefone(String.valueOf(etxt_Cad_telFornecedor.getText().toString()));
+
+                    dao.insertFornecedor(fornecedor);
                 }
                 else{
                     Toast.makeText(getApplicationContext(), "Os campos Nome, CNPJ e Telefone são obrigatorios!", Toast.LENGTH_SHORT).show();
